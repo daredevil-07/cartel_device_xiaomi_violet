@@ -8,11 +8,10 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cygnus/configs/common.mk)
+$(call inherit-product, vendor/conquer/config/common.mk)
 $(call inherit-product, device/qcom/common/common.mk)
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cygnus_violet
+PRODUCT_NAME := conquer_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
