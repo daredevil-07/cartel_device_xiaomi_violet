@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_violet.mk
+    $(LOCAL_DIR)/cartel_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_violet-user \
-    conquer_violet-userdebug \
-    conquer_violet-eng
+    cartel_violet-user \
+    cartel_violet-userdebug \
+    cartel_violet-eng
